@@ -91,8 +91,9 @@ nav {
             }
 
             @include media("<=phone") {
-              font-size: 1rem;
+              font-size: .75rem;
               margin-bottom: 0.875rem;
+              font-weight: 300;
             }
 
             a {
