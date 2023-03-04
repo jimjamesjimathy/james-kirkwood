@@ -39,24 +39,24 @@ const Navigation = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/audit" exact>
-                    Get a free audit
+                  <NavLink to="/resume" exact>
+                    have a resume
                   </NavLink>
                 </li>
               </ul>
               <ul className="nav-info">
-                <li className="nav-info-label">Headquarter</li>
-                <li>Route du Jura 49</li>
-                <li>1700 Fribourg</li>
-                <li>Switzerland</li>
+                <li className="nav-info-label">Location</li>
+                <li>420 69th street</li>
+                <li>Cleveland</li>
+                <li>Ohio</li>
               </ul>
               <ul className="nav-info">
                 <li className="nav-info-label">Phone</li>
-                <li>+41 (0) 79 510 28 70</li>
+                <li>1(512) 420 - 6969</li>
               </ul>
               <ul className="nav-info">
-                <li className="nav-info-label">Legal</li>
-                <li>Privacy & Cookies</li>
+                <li className="nav-info-label">Copyright</li>
+                <li>James Kirkwood 2023</li>
               </ul>
             </div>
           </div>
