@@ -1,0 +1,70 @@
+.banner-main {
+  height: calc(var(--vh, 1vh) * 50);
+  background-color: $white;
+
+  .row {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+
+    h2 {
+      font-size: 2rem;
+      line-height: 4.2rem;
+      font-weight: 500;
+      z-index: 10;
+      color: $white;
+      mix-blend-mode: difference;
+
+      @include media("<=tablet") {
+        font-size: 2.4rem;
+        line-height: 3rem;
+      }
+
+      @include media("<=phone") {
+        margin-top: 72px;
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+      }
+
+      .line {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+        height: 3.5em;
+        position: relative;
+        overflow: hidden;
+
+        @include media("<=tabletxl") {
+          height: 48px;
+        }
+
+        @include media("<=phone") {
+          height: 32px;
+        }
+
+        span {
+          font-size: 5rem;
+          font-weight: 100;
+          position: absolute;
+
+          @include media("<=tabletxl") {
+            font-size: 3rem;
+          }
+          @include media("<=tablet") {
+            font-size: 2rem;
+          }
+          @include media("<=phonexl") {
+            font-size: 1.75rem;
+          }
+          
+          abbr {
+            font-weight: 300;
+            color: $fifth;
+          }
+        }
+
+      }
+    }
+  }
+}
